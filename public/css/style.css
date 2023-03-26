@@ -1,0 +1,40 @@
+body {
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+.sign-in {
+    height: 100vh;
+    align-items: stretch;
+
+    display: flex;
+}
+.left {
+    margin: auto;
+    align-content: center;
+    width: 33.33%;
+    
+}
+.form {
+    margin-left:  auto;
+    margin-right:  auto;
+    width: 366px;
+    border: 1px solid red;
+}
+.right {
+    display: flex;
+    align-content: center;
+    width: 66.66%;
+    background-color: #F5FBFF;
+}
+.imgbg {
+    width: 605px;
+    margin: auto;
+}
+@media screen and (max-width: 992px){
+    .right{
+        display: none;
+    }
+}
