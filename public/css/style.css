@@ -1,8 +1,8 @@
 body {
-    
+
     padding: 0;
     margin: 0;
-    
+
 }
 
 .sign-in {
@@ -15,13 +15,13 @@ body {
     margin: auto;
     align-content: center;
     width: 33.33%;
-    
+
 }
 .form {
     margin-left:  auto;
     margin-right:  auto;
     width: 366px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 .right {
     display: flex;
@@ -33,8 +33,105 @@ body {
     width: 605px;
     margin: auto;
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1200px){
     .right{
+
         display: none;
     }
+    .left {
+        display: flex;
+        align-content: center;
+
+    }
+    .sign-in{
+        margin: auto;
+        display: flex;
+        align-content: center;
+    }
 }
+
+.sign {
+    font-family: Avenir;
+    font-style: normal;
+    padding-bottom: 32px;
+    font-size: 36px;
+    color: #344472;
+}
+.header {
+    font-family: Avenir;
+    font-style: normal;
+    padding-bottom: 8px;
+    font-size: 14px;
+    color: #707070;
+}
+.entry-field {
+    outline: none;
+    border: none;
+    width: 358px;
+    height: 40px;
+    background-color: #F6F6F6;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.entry-field2 {
+    background-repeat: no-repeat;
+    background-position: 0 10px, right;
+
+    background-image: url("../img/close_eye.svg");
+    outline: none;
+    border: none;
+    width: 358px;
+    height: 40px;
+    background-color: #F6F6F6;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.eye-button{
+    border: none;
+    box-decoration: none;
+    background-color: #FFFFFF;
+}
+.red-bottom {
+
+    /*display: flex;*/
+    /*align-content: center;*/
+    border: none;
+    text-align: center;
+    line-height: 36px;
+    width: 358px;
+    height: 42px;
+    background-color: #E4163A;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    color: #F5FBFF;
+}
+@font-face{
+    font-family: Avenir;
+    src: url("avenir_ff/AvenirLTStd-Book.otf");
+    src: local(Avenir), url(avenir_ff/AvenirLTStd-Book.otf);
+}
+.rem-password {
+    font-family: Avenir;
+    font-style: normal;
+    text-align: center;
+    color: #707070;
+    font-size: 14px;
+}
+a{
+    font-family: Avenir;
+    font-style: normal;
+    color: #E4163A;
+}
+input:hover{
+    background-color: #D1D1D1;
+}
+input:focus{
+    box-shadow: 0px 0px 5px #D9D9D9;
+}
+.red-bottom:hover{
+    background-color: #FF5761;
+}
+.red-bottom:active{
+    background-color: #C60E2E;
+}
+
