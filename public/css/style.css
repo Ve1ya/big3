@@ -118,9 +118,10 @@ body {
     font-size: 14px;
 }
 a{
+    text-decoration: none;
     font-family: Avenir;
     font-style: normal;
-    color: #E4163A;
+    color: #FFFFFF;
 }
 input:hover{
     background-color: #D1D1D1;
@@ -133,5 +134,11 @@ input:focus{
 }
 .red-bottom:active{
     background-color: #C60E2E;
+}
+.text-rem-password {
+    text-decoration: none;
+    font-family: Avenir;
+    font-style: normal;
+    color: #C60E2E;
 }
 
