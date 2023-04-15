@@ -1,21 +1,26 @@
-.body {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    height: 100%;
+html{
     width: 100%;
-
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.player{
+    width: 100%;
+    height: 100%;
 }
 .up-menu{
     display: flex;
-    background-color: #FFFFFF;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    /*position: absolute;*/
+    /*left: 0%;*/
+    /*right: 0%;*/
+    /*top: 0%;*/
+    /*bottom: 0%;*/
     width: 100%;
     height: 80px;
     box-shadow: 0px 1px 10px 0px #D1D1D180;
@@ -23,12 +28,14 @@
 .logo-big3 {
     display: flex;
     align-content: start;
-    margin: 16px 0px 16px 59px;
+    padding: 16px 0px 16px 59px;
 }
 .John-Smith {
-
-    position: absolute;
-
+    margin-right: 20px;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    align-content: end;
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 500;
@@ -37,24 +44,79 @@
     color: #303030;
 }
 .profile {
+    height: 80px;
+    margin: 30px 19px 26px 0px;
+    margin-left: 80%;
+    width: 36px;
+    display: flex;
 
-    position: absolute;
-    left: 93.96%;
-    right: 3.54%;
-    top: 27.5%;
-    bottom: 27.5%;
+}
+.profile-icon{
+    height: 80px;
+    /*margin-top: 22px;*/
+    margin-left: 80%;
     width: 36px;
     height: 36px;
     display: flex;
-
+}
+.body{
+    height: 100%;
+    width: 100%;
+    display: flex;
 }
 .left-menu {
-    margin-top: 82px;
-    background-color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
     display: flex;
-    height: 100%;
+    border: 1px solid;
+    background-color: #FFFFFF;
+    min-height: 100vh;
     width: 140px;
 }
+
+.group-person{
+    margin-top: 32px;
+    width: 24px;
+    height: 24px;
+
+}
+.teams{
+    width: 38px;
+    height: 18px;
+    font-weight: 1000;
+    font-size: 12px;
+    text-decoration: none;
+    color: #E4163A;
+    font-family: 'Avenir';
+    font-style: normal;
+}
+.players{
+    width: 38px;
+    height: 18px;
+    font-weight: 1000;
+    font-size: 12px;
+    text-decoration: none;
+    color: #9C9C9C;
+    font-family: 'Avenir';
+    font-style: normal;
+}
+.sign-out {
+    color: #FF768E;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    width: 48px;
+    height: 71px;
+    font-weight: 1000;
+    font-family: 'Avenir';
+    font-style: normal;
+}
+.back-button{
+    margin-left: 11px;
+    width: 24px;
+    height: 24px;
+}
+
 main {
     height: 100%;
     background-color: #F6F6F6;
@@ -64,3 +126,5 @@ main {
     src: url("avenir_ff/AvenirLTStd-Book.otf");
     src: local(Avenir), url(avenir_ff/AvenirLTStd-Book.otf);
 }
+
+
