@@ -202,7 +202,6 @@ input:focus{
     background-color: #C60E2E;
 }
 
-
 .navigation{
     margin-left: 130px;
     align-content: center;
@@ -242,13 +241,15 @@ a{
     color: #FFFFFF;
 }
 .empty-here-text{
-    
+    font-weight: 800;
+    margin-bottom: 24px;
     font-style: normal;
     font-family: Avenir;
     font-size:36px;   
     color: #FF768E;
 }
 .new-teams-text{
+    font-weight: 400;
     font-style: normal;
     font-family: Avenir;
     font-size:24px;   
