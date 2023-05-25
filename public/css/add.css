@@ -141,8 +141,11 @@ body {
     width: 556px;
     height: 570px;
 }
-.empty-photo{
+.empty-photo-team{
     margin: 79px 88px;
+}
+.empty-photo-player{
+    margin: 42px 88px;
 }
 @font-face{
     font-family: Avenir;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../css/add.css">
+    <link rel="stylesheet" href="../css/style-player-list.css">
     <meta charset="UTF-8">
     <title>Players</title>
 </head>
@@ -28,29 +28,35 @@
     </div>
     <div class="content">
         <div class="search-add">
-            <input type="text" placeholder="Search..." name="search" class="search">
-            <button class="add"><a class="text-a" href="person-player.html">Add</a></button>
+            <div><input type="text" placeholder="Search..." name="search" class="search"></div>
+            <div><button class="add"><a class="text-a">Add</a></button></div>
         </div>
-        <div class="main">
-            <img class="empty-photo-player" src="../img/empty-player-photo.svg">
-            <span class = "empty-here-text">Empty here</span>
-            <span class = "new-teams-text">Add new teams to continue</span>
+        <div class="block-person">
 
         </div>
-        <div class="navigation">
-            <img src="../img/chevron_left.svg" alt="">
-            <div class="number-list"><a>1</a></div>
-            <div class="number-list"><a>2</a></div>
-            <div class="number-list"><a>3</a></div>
-            <div class="number-list"><a>4</a></div>
-            <div class="number-list"><a>...</a></div>
-            <div class="number-list"><a>27</a></div>
-            <img src="../img/chevron_right.svg" alt="">
+
         </div>
-        <div class="down-select">
-            <select></select>
+        <div class="down">
+            <div class="navigation">
+                <img src="../img/chevron_left.svg" alt="">
+                <div class="number-list"><a>1</a></div>
+                <div class="number-list"><a>2</a></div>
+                <div class="number-list"><a>3</a></div>
+                <div class="number-list"><a>4</a></div>
+                <div class="number-list"><a>...</a></div>
+                <div class="number-list"><a>27</a></div>
+                <img src="../img/chevron_right.svg" alt="">
+            </div>
+
+            <select class="down-select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
         </div>
     </div>
+</div>
+</div>
 </div>
 </body>
 </html>
