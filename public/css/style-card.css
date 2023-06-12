@@ -1,22 +1,122 @@
-html{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+.block-person{
+    flex-direction: column;
+    display: flex;
+    width: 1140px;
+    margin-top: 112px;
+    height: 50%;
+    border-radius: 10px 10px 0px 0px;
+}
+.up-block{
+    background-color: #FFFFFF;
+    height: 69px;
+    border-radius: 10px 10px 0px 0px;
+}
+.down-block{
+    display: flex;
+    margin-bottom: 24px;
+    width: 1140px;
+    background: linear-gradient(276.45deg, #393939 0%, #707070 100.28%);
+    border-radius: 0px 0px 10px 10px;
+}
+.denver-info{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    margin-bottom: 40px;
+    margin-top: 65px;
+    color: #FFFFFF;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+}
+.r{
+    display: flex;
+    flex-direction: column;
+}
+.up-info1{
+
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+.up-info2{
+    margin-bottom: 8px;
+    margin-top: 54px;
+    color: #FFFFFF;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+.down-info{
+    color: #FFFFFF;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+.year-division{
+    gap: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+.gray-back{
+    background-color: #9C9C9C;
+    flex-direction: column;
+    display: flex;
+    width: 1140px;
+    height: 50%;
+    border-radius: 10px;
+}
+table{
+
+    border: none;
+}
+.tr{
+    border: none;
+    background-color: #FFFFFF;
+}
+.roster{
+    border-radius: 10px 10px 0px 0px;
+    padding: 14px 0px 14px 32px;
+    color: #707070;
+    background-color: #FFFFFF;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+}
+.red-text{
+    margin-left: 32px;
+    margin-top: 24px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #E4163A;
+}
+.gray{
+    color: #9C9C9C;
+}
+.ph-denver{
+    margin: 97px 146px 97px 146px;
+}
+@font-face{
+    font-family: Avenir;
+    src: url("avenir_ff/AvenirLTStd-Book.otf");
+    src: local(Avenir), url(avenir_ff/Avenir_Medium.ttf);
 }
 body {
-    background-color: #F6F6F6;;
-    width: 100%;
-    height: 100%;
-    /*margin: 0px;*/
+    background-color: #F6F6F6;
     padding: 0px;
     margin: 0px;
 }
-/*.player{*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
-.header{
+.header {
     position: absolute;
     background-color: #FFFFFF;
     width: 100%;
@@ -33,8 +133,6 @@ body {
 .John-Smith {
     margin-top: 30px;
     margin-right: 20px;
-    /*width: 100px;*/
-    /*height: 70px;*/
     display: flex;
     align-content: end;
     font-family: 'Avenir';
@@ -45,9 +143,7 @@ body {
     color: #303030;
 }
 .profile {
-
     display: flex;
-
 }
 .profile-icon{
     height: 80px;
@@ -72,6 +168,28 @@ body {
     background-color: #FFFFFF;
     min-height: 100vh;
     width: 140px;
+}
+
+.group-person{
+    margin-top: 32px;
+    width: 24px;
+    height: 24px;
+}
+.active{
+    font-weight: 1000;
+    font-size: 12px;
+    text-decoration: none;
+    color: #E4163A;
+    font-family: 'Avenir';
+    font-style: normal;
+}
+.passive{
+    font-weight: 1000;
+    font-size: 12px;
+    text-decoration: none;
+    color: #9C9C9C;
+    font-family: 'Avenir';
+    font-style: normal;
 }
 .left-menu{
     align-items: center;
@@ -101,7 +219,6 @@ body {
     height: 40px;
 }
 .ap-button{
-    margin-bottom: 30px;
     padding-top: 35px;
     display: flex;
     flex-direction: column;
@@ -166,33 +283,6 @@ body {
     height: 40px;
 }
 
-.group-person{
-    margin-top: 32px;
-    width: 24px;
-    height: 24px;
-
-}
-.active{
-    font-weight: 1000;
-    font-size: 12px;
-    text-decoration: none;
-    color: #E4163A;
-    font-family: 'Avenir';
-    font-style: normal;
-}
-.passive{
-    font-weight: 1000;
-    font-size: 12px;
-    text-decoration: none;
-    color: #9C9C9C;
-    font-family: 'Avenir';
-    font-style: normal;
-}
-.left-menu{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
 .sign-out {
     color: #FF768E;
     flex-direction: column;
@@ -210,80 +300,20 @@ body {
     height: 24px;
 }
 .content {
+    align-items: center;
+    align-content: center;
     width: 100%;
     flex-direction: column;
     display: flex;
     height: 100%;
     background-color: #F6F6F6;
 }
-.main{
-    border-radius: 15px;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    align-self: center;
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    margin: 139px 372px 154.5px 372px;
-    width: 556px;
-    height: 570px;
-}
-.empty-photo-team{
-    margin: 79px 88px;
-}
-.empty-photo-player{
-    margin: 42px 88px;
-}
-@font-face{
-    font-family: Avenir;
-    src: url("avenir_ff/AvenirLTStd-Book.otf");
-    src: local(Avenir), url(avenir_ff/AvenirLTStd-Book.otf);
-}
 
-.search-add{
-    margin: 80px 80px 32px 80px;
-    justify-content: space-between;
-    display: flex;
-    height: 40px;
-
-}
-.search{
-    margin-top: 32px;
-    font-family: 'Avenir';
-    font-style: normal;
-    color: #707070;
-    padding-left: 12px;
-    background-repeat: no-repeat;
-    background-position: 338px 12px, right;
-    background-image: url("../img/icon/search.svg");
-    outline: none;
-    border: none;
-    width: 364px;
-    height: 40px;
-    background-color: #FFFFFF;
-    border-radius: 4px;
-
-}
 input:hover{
     background-color: #D1D1D1;
 }
 input:focus{
     box-shadow: 0px 0px 5px #D9D9D9;
-}
-.add{
-    padding-right: 24px;
-    background-repeat: no-repeat;
-    background-position: 70px 12px, right;
-    background-image: url("../img/icon/add.svg");
-    margin: 30px 80px;
-    border: none;
-    width: 104px;
-    height: 40px;
-    background-color: #E4163A;
-    border-radius: 4px;
-    margin-bottom: 24px;
-    color: #F5FBFF;
 }
 .add:hover{
     background-color: #FF5761;
@@ -291,35 +321,57 @@ input:focus{
 .add:active{
     background-color: #C60E2E;
 }
-
-.navigation{
-    margin-left: 130px;
-    align-content: center;
-
-    height: 40px;
+.main{
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 64px 80px 0 80px;
+    gap: 30px;
     display: flex;
-    gap: 28px;
-}
-.number-list{
-    display: flex;
-    align-content: center;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 14px;
-    font-family: 'Avenir';
-    font-style: normal;
-    font-weight: 500;
-    color: #707070;
-    width: 40px;
-    height: 40px;
-}
-.number-list:active{
-    color: #FFFFFF;
-    text-decoration: none;
-    background-color: #E4163A;
+    width: 80%;
 }
 a{
     margin: 10px 16px 0 16px;
+}
+@media screen and (max-width: 1280px){
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .header{
+        align-items: center;
+        background-color: #FFFFFF;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        height: 80px;
+        box-shadow: 0px 1px 10px 0px #D1D1D180;
+    }
+    .profile{
+        display: none;
+    }
+    .add{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .logo-big3{
+        margin: 14px 119px;
+        align-self: center;
+        width: 33.33%;
+        height: 50%;
+    }
+}
+.players-photo{
+    margin: 73px 45px -5px 45px;
 }
 .red-number{
     color: #FF5761;
@@ -328,27 +380,7 @@ a{
     text-decoration: none;
     color: #FFFFFF;
 }
-.empty-here-text{
-    font-weight: 800;
-    margin-bottom: 24px;
-    font-style: normal;
-    font-family: Avenir;
-    font-size:36px;   
-    color: #FF768E;
-}
-.new-teams-text{
-    font-weight: 400;
-    font-style: normal;
-    font-family: Avenir;
-    font-size:24px;   
-    color: #707070;
-    font-family: Avenir;
-}
-.block-person{
-    flex-direction: column;
+.denver-info{
     display: flex;
-    background: linear-gradient(276.45deg, #707070 0%, #393939 100.28%);
-    border-radius: 10px 10px;
-    height: 594px;
-    width: 80%;
+    flex-direction: column;
 }

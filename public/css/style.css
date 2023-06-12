@@ -8,7 +8,6 @@ body {
 .sign-in {
     height: 100vh;
     align-items: stretch;
-
     display: flex;
 }
 .left {
@@ -75,25 +74,44 @@ body {
     color: #707070;
 }
 .entry-field {
+    padding-left: 12px;
     outline: none;
     border: none;
-    width: 366px;
+    width: 354px;
     height: 40px;
     background-color: #F6F6F6;
     border-radius: 4px;
     margin-bottom: 30px;
 }
 .entry-field2 {
+    padding-left: 12px;
     background-repeat: no-repeat;
     background-position: 338px 12px, right;
-    background-image: url("../img/close_eye.svg");
+    background-image: url("../img/icon/close_eye.svg");
     outline: none;
     border: none;
-    width: 366px;
+    width: 354px;
     height: 40px;
     background-color: #F6F6F6;
     border-radius: 4px;
     margin-bottom: 30px;
+}
+
+.accept{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    border-radius: 2px;
+    color: #707070;
+}
+span{
+
+    margin-top: 1px;
+    color: #707070;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
 }
 .eye-button{
     border: none;
@@ -127,7 +145,6 @@ body {
     font-size: 14px;
 }
 a{
-    text-decoration: none;
     font-family: Avenir;
     font-style: normal;
     color: #FFFFFF;
@@ -145,7 +162,7 @@ input:focus{
     background-color: #C60E2E;
 }
 .text-rem-password {
-    text-decoration: none;
+
     font-family: Avenir;
     font-style: normal;
     color: #C60E2E;
