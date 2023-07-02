@@ -15,10 +15,8 @@
 <div class="body">
     <div class="sidebar">
         <div class="left-menu">
-            <img class="group-person" src="../img/icon/group_person-passive.svg">
-            <a class="passive" href="teams-list.html">Teams</a>
-            <img class="group-person" src="../img/icon/person-active.svg">
-            <a class="active" href="players-list.html">Players</a>
+            <a class="active" href="teams-list.html"><button class="at-button">Teams</button></a>
+            <a class="passive" href="players-list.html"><button class="pp-button">Players</button></a>
         </div>
 
         <div class="sign-out">
@@ -30,7 +28,10 @@
         <div class="block-person">
             <div class="up-block">
                 <div class="red-text">Teams <span class="gray">/</span> Denver Nuggets</div>
-                <div class="icons"></div>
+                <div class="icons">
+                    <div class="create"><img src="../img/icon/create.svg" alt=""></div>
+                    <div class="delete"><img src="../img/icon/delete.svg" alt=""></div>
+                </div>
             </div>
             <div class="down-block">
                 <div class="ph-denver"><img src="../img/teams/denver.png"></div>
@@ -51,40 +52,87 @@
                 </div>
         </div>
     </div>
-        <div class="gray-back">
+        <div class="table-block">
                 <header class="roster">Roster</header>
             <table>
+
+                <tr class="th">
+                    <td>#</td>
+                    <td>Player</td>
+                    <td>Height</td>
+                    <td>Weight</td>
+                    <td>Age</td>
+                </tr>
+
                 <tr class="tr">
-                    <td>
-                        <span>#</span>
-                        <span>Player</span>
-                        <span>Height</span>
-                        <span>Weight</span>
-                        <span>Age</span>
+                    <td>10</td>
+                    <td class="photo-name">
+                        <div><img class="card-photo" src="../img/players/bol-bol.svg"></div>
+                        <div><span class="player-name">Bol Bol </span><br> <span class="position">Centerforward</span></div>
                     </td>
+                    <td>218 cm</td>
+                    <td>100 kg</td>
+                    <td>21</td>
                 </tr>
                 <tr class="tr">
-                    <td>10
-                    <span><img src="../img/players/bol-bol.svg"></span>
+                    <td>-</td>
+                    <td class="photo-name">
+                        <div><img class="card-photo" src="../img/players/hampton.svg"></div>
+                        <div><span class="player-name">R. J. Hampton</span><br> <span class="position">Defender</span></div>
                     </td>
+                    <td>193 cm</td>
+                    <td>79 kg</td>
+                    <td>19</td>
                 </tr>
                 <tr class="tr">
-                    <td>4</td>
+                    <td>31</td>
+                    <td class="photo-name">
+                        <div><img class="card-photo" src="../img/players/cancar.svg"></div>
+                        <div><span class="player-name">Vlatko Cancar</span><br> <span class="position">Forward</span></div>
+                    </td>
+                    <td>203 cm</td>
+                    <td>107 kg</td>
+                    <td>23</td>
                 </tr>
                 <tr class="tr">
-                    <td>4</td>
+                    <td>22</td>
+                    <td class="photo-name">
+                        <div><img class="card-photo" src="../img/players/gred.svg"></div>
+                        <div><span class="player-name">Greg Whittington</span><br> <span class="position">Forward</span></div>
+                    </td>
+                    <td>206 cm</td>
+                    <td>95 kg</td>
+                    <td>27</td>
                 </tr>
                 <tr class="tr">
-                    <td>4</td>
+                    <td>14</td>
+                    <td class="photo-name">
+                        <div><img class="card-photo" src="../img/players/harris.svg"></div>
+                        <div><span class="player-name">Gary Harris</span><br> <span class="position">Defender</span></div>
+                    </td>
+                    <td>193 cm</td>
+                    <td>95 kg</td>
+                    <td>26</td>
                 </tr>
                 <tr class="tr">
-                    <td>4</td>
+                    <td>27</td>
+                    <td class="photo-name">
+                        <div><img class="card-photo" src="../img/players/murray.svg"></div>
+                        <div><span class="player-name">Jamal Murray</span><br> <span class="position">Defender</span></div>
+                    </td>
+                    <td>193 cm</td>
+                    <td>98 kg</td>
+                    <td>23</td>
                 </tr>
                 <tr class="tr">
-                    <td>4</td>
-                </tr>
-                <tr class="tr">
-                    <td>4</td>
+                    <td>-</td>
+                    <td class="photo-name">
+                        <div><img class="card-photo" src="../img/players/zeke.svg"></div>
+                        <div><span class="player-name">Zeke Nnaji</span><br> <span class="position">Forward-center</span></div>
+                    </td>
+                    <td>211 cm</td>
+                    <td>109 kg</td>
+                    <td>19</td>
                 </tr>
             </table>
         </div>

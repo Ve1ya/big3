@@ -7,6 +7,8 @@
     border-radius: 10px 10px 0px 0px;
 }
 .up-block{
+    justify-content: space-between;
+    display: flex;
     background-color: #FFFFFF;
     height: 69px;
     border-radius: 10px 10px 0px 0px;
@@ -31,7 +33,25 @@
     font-weight: 800;
     font-size: 36px;
 }
+.player-name{
+    font-size: 14px;
+    color: #707070;
+}
+.position{
+    font-size: 12px;
+    color: #9C9C9C;
+}
+.ph-greg{
+    margin-top: 94px;
+    margin-bottom: -20px;
+    margin-right: 57px;
+}
 .r{
+    display: flex;
+    flex-direction: column;
+}
+.age{
+    margin-bottom: 65px;
     display: flex;
     flex-direction: column;
 }
@@ -61,27 +81,56 @@
     font-size: 18px;
 }
 .year-division{
-    gap: 84px;
+    gap: 177px;
     display: flex;
-    justify-content: space-between;
+
 }
-.gray-back{
-    background-color: #9C9C9C;
+.year-division1{
+    gap: 195px;
+    display: flex;
+
+}
+.table-block{
+
+    margin-bottom: 19px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #707070;
+    background-color: #FFFFFF;
     flex-direction: column;
     display: flex;
     width: 1140px;
     height: 50%;
     border-radius: 10px;
 }
-table{
 
-    border: none;
-}
-.tr{
-    border: none;
+.th{
+
+    height: 40px;
+    padding-left: 32px;
+    width: 100%;
     background-color: #FFFFFF;
 }
+table{
+    border: solid 0.5px #9C9C9C;
+    padding-left: 32px;
+}
+.tr{
+    color: #707070;
+    height: 40px;
+    width: 1140px;
+    /*padding-left: 32px;*/
+    border: solid 2px #9C9C9C;
+}
+.photo-name{
+    display: flex;
+    gap: 16px;
+}
 .roster{
+    border: solid 0.5px #9C9C9C;
+    padding-left: 32px;
     border-radius: 10px 10px 0px 0px;
     padding: 14px 0px 14px 32px;
     color: #707070;
@@ -91,20 +140,35 @@ table{
     font-weight: 800;
     font-size: 18px;
 }
+.card-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 .red-text{
+    float: left;
     margin-left: 32px;
     margin-top: 24px;
     font-family: 'Avenir';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     color: #E4163A;
+}
+.icons{
+    gap: 16px;
+    margin: 24px 32px 24px 0px;
+    display: flex;
+    float: right;
 }
 .gray{
     color: #9C9C9C;
 }
 .ph-denver{
     margin: 97px 146px 97px 146px;
+}
+.red-number{
+    color: #FF5761;
 }
 @font-face{
     font-family: Avenir;
